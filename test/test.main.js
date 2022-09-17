@@ -22,7 +22,7 @@
 
 var tape = require( 'tape' );
 var noop = require( '@stdlib/utils-noop' );
-var tabulateByAsync = require( './../lib/tabulate_by.js' );
+var tabulateByAsync = require( './../lib' );
 
 
 // TESTS //
