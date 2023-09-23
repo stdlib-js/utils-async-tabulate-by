@@ -52,13 +52,18 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import tabulateByAsync from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-async-tabulate-by@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/utils-async-tabulate-by/tags). For example,
+
+```javascript
 import tabulateByAsync from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-async-tabulate-by@v0.1.0-deno/mod.js';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { factory } from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-async-tabulate-by@v0.1.0-deno/mod.js';
+import { factory } from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-async-tabulate-by@deno/mod.js';
 ```
 
 #### tabulateByAsync( collection, \[options,] indicator, done )
@@ -328,7 +333,7 @@ The function accepts the same `options` as `tabulateByAsync()`.
 ```javascript
 var resolve = require( 'path' ).resolve;
 import readFile from 'https://cdn.jsdelivr.net/gh/stdlib-js/fs-read-file@deno/mod.js';
-import tabulateByAsync from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-async-tabulate-by@v0.1.0-deno/mod.js';
+import tabulateByAsync from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-async-tabulate-by@deno/mod.js';
 
 var files = [
     resolve( __dirname, 'package.json' ),
