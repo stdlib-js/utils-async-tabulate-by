@@ -52,13 +52,13 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import tabulateByAsync from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-async-tabulate-by@esm/index.mjs';
+import tabulateByAsync from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-async-tabulate-by@v0.2.1-esm/index.mjs';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { factory } from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-async-tabulate-by@esm/index.mjs';
+import { factory } from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-async-tabulate-by@v0.2.1-esm/index.mjs';
 ```
 
 #### tabulateByAsync( collection, \[options,] indicator, done )
@@ -333,7 +333,7 @@ The function accepts the same `options` as `tabulateByAsync()`.
 
 var resolve = require( 'path' ).resolve;
 import readFile from 'https://cdn.jsdelivr.net/gh/stdlib-js/fs-read-file@esm/index.mjs';
-import tabulateByAsync from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-async-tabulate-by@esm/index.mjs';
+import tabulateByAsync from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-async-tabulate-by@v0.2.1-esm/index.mjs';
 
 var files = [
     resolve( __dirname, 'package.json' ),
